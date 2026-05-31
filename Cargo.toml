@@ -1,0 +1,11 @@
+[package]
+name = "lau-fluid-dynamics"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Computational fluid dynamics in Rust: Navier-Stokes, Euler, Lattice Boltzmann (D2Q9), vortex methods, and agent flow dynamics"
+repository = "https://github.com/SuperInstance/lau-fluid-dynamics"
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+serde = { version = "1", features = ["derive"] }
